@@ -16,9 +16,6 @@
 
 #pragma once
 
-#include "config_common.h"
-
-/* key matrix size */
 #define MATRIX_ROWS 4
 #define MATRIX_COLS 6
 
@@ -35,23 +32,6 @@
 #define DISCHARGE_PIN A3
 #define ANALOG_PORT A2
 
-/* RGB Strip */
-#define RGB_DI_PIN B5
-#define RGBLED_NUM 15
-#define RGBLIGHT_EFFECT_BREATHING
-#define RGBLIGHT_EFFECT_RAINBOW_MOOD
-#define RGBLIGHT_EFFECT_RAINBOW_SWIRL
-#define RGBLIGHT_EFFECT_SNAKE
-#define RGBLIGHT_EFFECT_KNIGHT
-#define RGBLIGHT_EFFECT_CHRISTMAS
-#define RGBLIGHT_EFFECT_STATIC_GRADIENT
-#define RGBLIGHT_EFFECT_RGB_TEST
-#define RGBLIGHT_EFFECT_ALTERNATING
-#define RGBLIGHT_EFFECT_TWINKLE
-
-/* COL2ROW, ROW2COL */
-#define DIODE_DIRECTION COL2ROW
-
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
 //#define DEBOUNCE 5
 
@@ -61,3 +41,7 @@
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
 
+#define DEFAULT_ACTUATION_LEVEL 550
+#define DEFAULT_RELEASE_LEVEL 500
+
+#define DISCHARGE_TIME 10

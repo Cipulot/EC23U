@@ -16,20 +16,5 @@
 
 #pragma once
 
-#include "quantum.h"
-
-// clang-format off
-#define LAYOUT( \
-    k00, k01, k02, k03, \
-    k10, k11, k12, k13, \
-    k20, k21, k22, k23, \
-    k30, k31, k32, k33, \
-    k24, k04, k14, k34, \
-    k25, k05, k15, k35  \
-) { \
-    { k00, k01, k02, k03, k04, k05 }, \
-    { k10, k11, k12, k13, k14, k15 }, \
-    { k20, k21, k22, k23, k24, k25 }, \
-    { k30, k31, k32, k33, k34, k35 }  \
-}
-// clang-format on
+// This is the size of the EEPROM for the custom VIA-specific data
+#define EECONFIG_USER_DATA_SIZE 4
