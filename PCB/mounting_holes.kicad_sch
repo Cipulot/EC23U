@@ -5,12 +5,13 @@
   (paper "A5")
 
   (title_block
-    (title "EC23U - Mounting Holes")
-    (date "2022-11-18")
-    (rev "1")
-    (company "Cipulot PCB Design")
-    (comment 1 "MIT License")
-    (comment 2 "Cipulot")
+    (title "EC23U")
+    (date "2023-07-15")
+    (rev "1.1")
+    (company "LU.SV Solutions")
+    (comment 1 "Cipulot PCB Design")
+    (comment 2 "MIT License")
+    (comment 3 "Cipulot")
   )
 
   (lib_symbols
