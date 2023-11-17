@@ -6,12 +6,12 @@
 
   (title_block
     (title "EC23U")
-    (date "2023-07-15")
+    (date "2023-11-17")
     (rev "1.1")
     (company "LU.SV Solutions")
     (comment 1 "Cipulot PCB Design")
-    (comment 2 "MIT License")
-    (comment 3 "Cipulot")
+    (comment 2 "Cipulot")
+    (comment 3 "GNU General Public License v3.0 ")
   )
 
   (lib_symbols

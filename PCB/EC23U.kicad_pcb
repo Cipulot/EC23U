@@ -7,12 +7,12 @@
   (paper "A4")
   (title_block
     (title "EC23U")
-    (date "2023-07-15")
+    (date "2023-11-17")
     (rev "1.1")
     (company "LU.SV Solutions")
     (comment 1 "Cipulot PCB Design")
-    (comment 2 "MIT License")
-    (comment 3 "Cipulot")
+    (comment 2 "Cipulot")
+    (comment 3 "GNU General Public License v3.0 ")
   )
 
   (layers
@@ -466,7 +466,7 @@
     (fp_circle (center 16.4 7.2) (end 17.85 7.2)
       (stroke (width 0.1) (type solid)) (fill none) (layer "Dwgs.User") (tstamp 9449f1c5-d28d-469e-9ec5-ec65be2fef4c))
     (pad "1" smd custom (at -1 0 270) (size 0.4 0.4) (layers "F.Cu")
-      (net 24 "SENSE_4") (pinfunction "1") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 24 "SENSE_4") (pinfunction "1") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -546,7 +546,7 @@
     (pad "1" thru_hole circle (at -1 0 270) (size 0.8 0.8) (drill 0.4) (layers "*.Cu")
       (net 24 "SENSE_4") (pinfunction "1") (pintype "passive") (tstamp 90bdc20d-f583-43cb-b687-4665d823ea5e))
     (pad "2" smd custom (at 1 0 90) (size 0.4 0.4) (layers "F.Cu")
-      (net 19 "STROBE_3") (pinfunction "2") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 19 "STROBE_3") (pinfunction "2") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1005,7 +1005,7 @@
     (fp_arc (start 9.3 6.1) (mid 8.42132 8.22132) (end 6.3 9.1)
       (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 1f31513c-b636-4ac7-9b3e-6835578a9766))
     (pad "1" smd custom (at -1 0) (size 0.4 0.4) (layers "F.Cu")
-      (net 23 "SENSE_5") (pinfunction "1") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 23 "SENSE_5") (pinfunction "1") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1085,7 +1085,7 @@
     (pad "1" thru_hole circle (at -1 0) (size 0.8 0.8) (drill 0.4) (layers "*.Cu")
       (net 23 "SENSE_5") (pinfunction "1") (pintype "passive") (tstamp 211f712e-899c-4abb-b5c2-d7bc403062a2))
     (pad "2" smd custom (at 1 0 180) (size 0.4 0.4) (layers "F.Cu")
-      (net 22 "STROBE_0") (pinfunction "2") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 22 "STROBE_0") (pinfunction "2") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1544,7 +1544,7 @@
     (fp_arc (start 9.3 6.1) (mid 8.42132 8.22132) (end 6.3 9.1)
       (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp d390133b-45d6-48b6-a553-3b33dc2cbd19))
     (pad "1" smd custom (at -1 0 180) (size 0.4 0.4) (layers "F.Cu")
-      (net 27 "SENSE_1") (pinfunction "1") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 27 "SENSE_1") (pinfunction "1") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1624,7 +1624,7 @@
     (pad "1" thru_hole circle (at -1 0 180) (size 0.8 0.8) (drill 0.4) (layers "*.Cu")
       (net 27 "SENSE_1") (pinfunction "1") (pintype "passive") (tstamp ac17341e-e140-4b5c-8186-d04250a1ccbe))
     (pad "2" smd custom (at 1 0) (size 0.4 0.4) (layers "F.Cu")
-      (net 21 "STROBE_1") (pinfunction "2") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 21 "STROBE_1") (pinfunction "2") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1989,7 +1989,7 @@
     (fp_arc (start 9.3 6.1) (mid 8.42132 8.22132) (end 6.3 9.1)
       (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 34b3f88a-3379-4ef8-be30-ef4f2026bfc2))
     (pad "1" smd custom (at -1 0) (size 0.4 0.4) (layers "F.Cu")
-      (net 25 "SENSE_3") (pinfunction "1") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 25 "SENSE_3") (pinfunction "1") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -2069,7 +2069,7 @@
     (pad "1" thru_hole circle (at -1 0) (size 0.8 0.8) (drill 0.4) (layers "*.Cu")
       (net 25 "SENSE_3") (pinfunction "1") (pintype "passive") (tstamp c13054de-f24a-49e6-afe3-1fab59113034))
     (pad "2" smd custom (at 1 0 180) (size 0.4 0.4) (layers "F.Cu")
-      (net 21 "STROBE_1") (pinfunction "2") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 21 "STROBE_1") (pinfunction "2") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -2434,7 +2434,7 @@
     (fp_arc (start 9.3 6.1) (mid 8.42132 8.22132) (end 6.3 9.1)
       (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 88a1c901-51c4-4eca-8497-1c3d3c390df0))
     (pad "1" smd custom (at -1 0 270) (size 0.4 0.4) (layers "F.Cu")
-      (net 24 "SENSE_4") (pinfunction "1") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 24 "SENSE_4") (pinfunction "1") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -2514,7 +2514,7 @@
     (pad "1" thru_hole circle (at -1 0 270) (size 0.8 0.8) (drill 0.4) (layers "*.Cu")
       (net 24 "SENSE_4") (pinfunction "1") (pintype "passive") (tstamp 27289090-f279-40ee-a0c6-3fb16d06510b))
     (pad "2" smd custom (at 1 0 90) (size 0.4 0.4) (layers "F.Cu")
-      (net 21 "STROBE_1") (pinfunction "2") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 21 "STROBE_1") (pinfunction "2") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -2879,7 +2879,7 @@
     (fp_arc (start 9.3 6.1) (mid 8.42132 8.22132) (end 6.3 9.1)
       (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 046ba391-e310-4d16-9154-7b2904dc7011))
     (pad "1" smd custom (at -1 0) (size 0.4 0.4) (layers "F.Cu")
-      (net 28 "SENSE_0") (pinfunction "1") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 28 "SENSE_0") (pinfunction "1") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -2959,7 +2959,7 @@
     (pad "1" thru_hole circle (at -1 0) (size 0.8 0.8) (drill 0.4) (layers "*.Cu")
       (net 28 "SENSE_0") (pinfunction "1") (pintype "passive") (tstamp 7be6bf64-5c47-45a9-b63c-8a2e3b204276))
     (pad "2" smd custom (at 1 0 180) (size 0.4 0.4) (layers "F.Cu")
-      (net 22 "STROBE_0") (pinfunction "2") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 22 "STROBE_0") (pinfunction "2") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -3324,7 +3324,7 @@
     (fp_arc (start 9.3 6.1) (mid 8.42132 8.22132) (end 6.3 9.1)
       (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 8270cb00-aa5a-418d-a20b-7e5f75047f02))
     (pad "1" smd custom (at -1 0 180) (size 0.4 0.4) (layers "F.Cu")
-      (net 27 "SENSE_1") (pinfunction "1") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 27 "SENSE_1") (pinfunction "1") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -3404,7 +3404,7 @@
     (pad "1" thru_hole circle (at -1 0 180) (size 0.8 0.8) (drill 0.4) (layers "*.Cu")
       (net 27 "SENSE_1") (pinfunction "1") (pintype "passive") (tstamp db8977ac-0fab-4f7d-a042-59bc2caf175f))
     (pad "2" smd custom (at 1 0) (size 0.4 0.4) (layers "F.Cu")
-      (net 20 "STROBE_2") (pinfunction "2") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 20 "STROBE_2") (pinfunction "2") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -3769,7 +3769,7 @@
     (fp_arc (start 9.3 6.1) (mid 8.42132 8.22132) (end 6.3 9.1)
       (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp cb3f0c8a-dacb-4894-823f-0fdd30db3d13))
     (pad "1" smd custom (at -1 0 180) (size 0.4 0.4) (layers "F.Cu")
-      (net 26 "SENSE_2") (pinfunction "1") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 26 "SENSE_2") (pinfunction "1") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -3849,7 +3849,7 @@
     (pad "1" thru_hole circle (at -1 0 180) (size 0.8 0.8) (drill 0.4) (layers "*.Cu")
       (net 26 "SENSE_2") (pinfunction "1") (pintype "passive") (tstamp 262242b7-f9da-4a71-b593-8ab6a474bcdb))
     (pad "2" smd custom (at 1 0) (size 0.4 0.4) (layers "F.Cu")
-      (net 21 "STROBE_1") (pinfunction "2") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 21 "STROBE_1") (pinfunction "2") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -4214,7 +4214,7 @@
     (fp_arc (start 9.3 6.1) (mid 8.42132 8.22132) (end 6.3 9.1)
       (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp ae06642a-c5ad-4ea2-a9d3-603b6fb70be6))
     (pad "1" smd custom (at -1 0 180) (size 0.4 0.4) (layers "F.Cu")
-      (net 26 "SENSE_2") (pinfunction "1") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 26 "SENSE_2") (pinfunction "1") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -4294,7 +4294,7 @@
     (pad "1" thru_hole circle (at -1 0 180) (size 0.8 0.8) (drill 0.4) (layers "*.Cu")
       (net 26 "SENSE_2") (pinfunction "1") (pintype "passive") (tstamp 042fc2a2-916c-4278-acdb-f7684e212f45))
     (pad "2" smd custom (at 1 0) (size 0.4 0.4) (layers "F.Cu")
-      (net 20 "STROBE_2") (pinfunction "2") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 20 "STROBE_2") (pinfunction "2") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -4752,7 +4752,7 @@
     (fp_arc (start 9.3 6.1) (mid 8.42132 8.22132) (end 6.3 9.1)
       (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp f5844471-2aea-46a5-a47e-5654c1211ced))
     (pad "1" smd custom (at -1 0 90) (size 0.4 0.4) (layers "F.Cu")
-      (net 23 "SENSE_5") (pinfunction "1") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 23 "SENSE_5") (pinfunction "1") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -4832,7 +4832,7 @@
     (pad "1" thru_hole circle (at -1 0 90) (size 0.8 0.8) (drill 0.4) (layers "*.Cu")
       (net 23 "SENSE_5") (pinfunction "1") (pintype "passive") (tstamp 391f3191-8dbd-4adb-be4a-2e53a711920e))
     (pad "2" smd custom (at 1 0 270) (size 0.4 0.4) (layers "F.Cu")
-      (net 19 "STROBE_3") (pinfunction "2") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 19 "STROBE_3") (pinfunction "2") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -5197,7 +5197,7 @@
     (fp_arc (start 9.3 6.1) (mid 8.42132 8.22132) (end 6.3 9.1)
       (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 4ecca54d-3bfd-435c-ae5e-09282681c10b))
     (pad "1" smd custom (at -1 0 180) (size 0.4 0.4) (layers "F.Cu")
-      (net 26 "SENSE_2") (pinfunction "1") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 26 "SENSE_2") (pinfunction "1") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -5277,7 +5277,7 @@
     (pad "1" thru_hole circle (at -1 0 180) (size 0.8 0.8) (drill 0.4) (layers "*.Cu")
       (net 26 "SENSE_2") (pinfunction "1") (pintype "passive") (tstamp 6acfae80-0239-4c11-b65c-b4a7ba0aa7d3))
     (pad "2" smd custom (at 1 0) (size 0.4 0.4) (layers "F.Cu")
-      (net 19 "STROBE_3") (pinfunction "2") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 19 "STROBE_3") (pinfunction "2") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -5736,7 +5736,7 @@
     (fp_arc (start 9.3 6.1) (mid 8.42132 8.22132) (end 6.3 9.1)
       (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 8e9f0fad-f470-4454-8f05-b50c72dd9647))
     (pad "1" smd custom (at -1 0 30) (size 0.4 0.4) (layers "F.Cu")
-      (net 23 "SENSE_5") (pinfunction "1") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 23 "SENSE_5") (pinfunction "1") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -5816,7 +5816,7 @@
     (pad "1" thru_hole circle (at -1 0 30) (size 0.8 0.8) (drill 0.4) (layers "*.Cu")
       (net 23 "SENSE_5") (pinfunction "1") (pintype "passive") (tstamp a5f5c38d-fc7c-4560-837c-6d6ec511eff2))
     (pad "2" smd custom (at 1 0 210) (size 0.4 0.4) (layers "F.Cu")
-      (net 20 "STROBE_2") (pinfunction "2") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 20 "STROBE_2") (pinfunction "2") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -6181,7 +6181,7 @@
     (fp_arc (start 9.3 6.1) (mid 8.42132 8.22132) (end 6.3 9.1)
       (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 0e76d465-6c54-47a2-803d-bade920d2093))
     (pad "1" smd custom (at -1 0 270) (size 0.4 0.4) (layers "F.Cu")
-      (net 24 "SENSE_4") (pinfunction "1") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 24 "SENSE_4") (pinfunction "1") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -6261,7 +6261,7 @@
     (pad "1" thru_hole circle (at -1 0 270) (size 0.8 0.8) (drill 0.4) (layers "*.Cu")
       (net 24 "SENSE_4") (pinfunction "1") (pintype "passive") (tstamp f10f4647-f022-4b23-b2f0-be79ffba0eb6))
     (pad "2" smd custom (at 1 0 90) (size 0.4 0.4) (layers "F.Cu")
-      (net 22 "STROBE_0") (pinfunction "2") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 22 "STROBE_0") (pinfunction "2") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -6626,7 +6626,7 @@
     (fp_arc (start 9.3 6.1) (mid 8.42132 8.22132) (end 6.3 9.1)
       (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 25df2180-91f0-4407-8619-fdab9aec96b6))
     (pad "1" smd custom (at -1 0) (size 0.4 0.4) (layers "F.Cu")
-      (net 28 "SENSE_0") (pinfunction "1") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 28 "SENSE_0") (pinfunction "1") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -6706,7 +6706,7 @@
     (pad "1" thru_hole circle (at -1 0) (size 0.8 0.8) (drill 0.4) (layers "*.Cu")
       (net 28 "SENSE_0") (pinfunction "1") (pintype "passive") (tstamp 4dde8f59-56d7-4f5f-a54e-5f648d6a101c))
     (pad "2" smd custom (at 1 0 180) (size 0.4 0.4) (layers "F.Cu")
-      (net 21 "STROBE_1") (pinfunction "2") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 21 "STROBE_1") (pinfunction "2") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -7071,7 +7071,7 @@
     (fp_arc (start 9.3 6.1) (mid 8.42132 8.22132) (end 6.3 9.1)
       (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 93c89966-3ca1-48f9-9121-99244fddb1d6))
     (pad "1" smd custom (at -1 0 150) (size 0.4 0.4) (layers "F.Cu")
-      (net 25 "SENSE_3") (pinfunction "1") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 25 "SENSE_3") (pinfunction "1") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -7151,7 +7151,7 @@
     (pad "1" thru_hole circle (at -1 0 150) (size 0.8 0.8) (drill 0.4) (layers "*.Cu")
       (net 25 "SENSE_3") (pinfunction "1") (pintype "passive") (tstamp fc718d3a-187e-4926-a43b-8c1f564f3d7e))
     (pad "2" smd custom (at 1 0 330) (size 0.4 0.4) (layers "F.Cu")
-      (net 22 "STROBE_0") (pinfunction "2") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 22 "STROBE_0") (pinfunction "2") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -7516,7 +7516,7 @@
     (fp_arc (start 9.3 6.1) (mid 8.42132 8.22132) (end 6.3 9.1)
       (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 1ecbad09-871e-4f2d-b5ce-f51e0c098c0c))
     (pad "1" smd custom (at -1 0 180) (size 0.4 0.4) (layers "F.Cu")
-      (net 27 "SENSE_1") (pinfunction "1") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 27 "SENSE_1") (pinfunction "1") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -7596,7 +7596,7 @@
     (pad "1" thru_hole circle (at -1 0 180) (size 0.8 0.8) (drill 0.4) (layers "*.Cu")
       (net 27 "SENSE_1") (pinfunction "1") (pintype "passive") (tstamp f81c106b-89d0-43b1-81a9-8a2915c84540))
     (pad "2" smd custom (at 1 0) (size 0.4 0.4) (layers "F.Cu")
-      (net 22 "STROBE_0") (pinfunction "2") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 22 "STROBE_0") (pinfunction "2") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -8015,7 +8015,7 @@
     (fp_arc (start 9.3 6.1) (mid 8.42132 8.22132) (end 6.3 9.1)
       (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 282b2100-cd12-49ad-a14a-402173bbcc87))
     (pad "1" smd custom (at -1 0 180) (size 0.4 0.4) (layers "F.Cu")
-      (net 26 "SENSE_2") (pinfunction "1") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 26 "SENSE_2") (pinfunction "1") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -8095,7 +8095,7 @@
     (pad "1" thru_hole circle (at -1 0 180) (size 0.8 0.8) (drill 0.4) (layers "*.Cu")
       (net 26 "SENSE_2") (pinfunction "1") (pintype "passive") (tstamp 3e741616-c5a9-4e9a-bba4-8bf95eec421a))
     (pad "2" smd custom (at 1 0) (size 0.4 0.4) (layers "F.Cu")
-      (net 22 "STROBE_0") (pinfunction "2") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 22 "STROBE_0") (pinfunction "2") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -8535,7 +8535,7 @@
     (fp_arc (start 9.3 6.1) (mid 8.42132 8.22132) (end 6.3 9.1)
       (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 61eb728f-a145-43b1-a456-f49a42f8de50))
     (pad "1" smd custom (at -1 0 120) (size 0.4 0.4) (layers "F.Cu")
-      (net 25 "SENSE_3") (pinfunction "1") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 25 "SENSE_3") (pinfunction "1") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -8615,7 +8615,7 @@
     (pad "1" thru_hole circle (at -1 0 120) (size 0.8 0.8) (drill 0.4) (layers "*.Cu")
       (net 25 "SENSE_3") (pinfunction "1") (pintype "passive") (tstamp 81e74606-2c67-4f52-91e6-f54c4e694f44))
     (pad "2" smd custom (at 1 0 300) (size 0.4 0.4) (layers "F.Cu")
-      (net 19 "STROBE_3") (pinfunction "2") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 19 "STROBE_3") (pinfunction "2") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -9073,7 +9073,7 @@
     (fp_arc (start 9.3 6.1) (mid 8.42132 8.22132) (end 6.3 9.1)
       (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 1803f3a2-5692-4803-a977-b51ac6f52a74))
     (pad "1" smd custom (at -1 0 90) (size 0.4 0.4) (layers "F.Cu")
-      (net 25 "SENSE_3") (pinfunction "1") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 25 "SENSE_3") (pinfunction "1") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -9153,7 +9153,7 @@
     (pad "1" thru_hole circle (at -1 0 90) (size 0.8 0.8) (drill 0.4) (layers "*.Cu")
       (net 25 "SENSE_3") (pinfunction "1") (pintype "passive") (tstamp b29f4b7d-cacf-42b8-b78c-3a0d89862f7c))
     (pad "2" smd custom (at 1 0 270) (size 0.4 0.4) (layers "F.Cu")
-      (net 20 "STROBE_2") (pinfunction "2") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 20 "STROBE_2") (pinfunction "2") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -9504,7 +9504,7 @@
     (fp_circle (center 16.4 7.2) (end 17.85 7.2)
       (stroke (width 0.1) (type solid)) (fill none) (layer "Dwgs.User") (tstamp 3331d6dd-46e6-4dc6-a497-a14b3337cb3f))
     (pad "1" smd custom (at -1 0 180) (size 0.4 0.4) (layers "F.Cu")
-      (net 23 "SENSE_5") (pinfunction "1") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 23 "SENSE_5") (pinfunction "1") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -9584,7 +9584,7 @@
     (pad "1" thru_hole circle (at -1 0 180) (size 0.8 0.8) (drill 0.4) (layers "*.Cu")
       (net 23 "SENSE_5") (pinfunction "1") (pintype "passive") (tstamp b615a517-3b17-4ff4-9e9f-615b53882c65))
     (pad "2" smd custom (at 1 0) (size 0.4 0.4) (layers "F.Cu")
-      (net 20 "STROBE_2") (pinfunction "2") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 20 "STROBE_2") (pinfunction "2") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -9949,7 +9949,7 @@
     (fp_arc (start 9.3 6.1) (mid 8.42132 8.22132) (end 6.3 9.1)
       (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 2e82b02d-743c-4c92-86f8-3f8f4727f201))
     (pad "1" smd custom (at -1 0 180) (size 0.4 0.4) (layers "F.Cu")
-      (net 24 "SENSE_4") (pinfunction "1") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 24 "SENSE_4") (pinfunction "1") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -10029,7 +10029,7 @@
     (pad "1" thru_hole circle (at -1 0 180) (size 0.8 0.8) (drill 0.4) (layers "*.Cu")
       (net 24 "SENSE_4") (pinfunction "1") (pintype "passive") (tstamp 267482c5-d50c-4943-b974-8d78c9ec838d))
     (pad "2" smd custom (at 1 0) (size 0.4 0.4) (layers "F.Cu")
-      (net 20 "STROBE_2") (pinfunction "2") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 20 "STROBE_2") (pinfunction "2") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -10394,7 +10394,7 @@
     (fp_arc (start 9.3 6.1) (mid 8.42132 8.22132) (end 6.3 9.1)
       (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 8a2aa0d1-1ed3-4bae-bc9d-27234690298f))
     (pad "1" smd custom (at -1 0 180) (size 0.4 0.4) (layers "F.Cu")
-      (net 27 "SENSE_1") (pinfunction "1") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 27 "SENSE_1") (pinfunction "1") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -10474,7 +10474,7 @@
     (pad "1" thru_hole circle (at -1 0 180) (size 0.8 0.8) (drill 0.4) (layers "*.Cu")
       (net 27 "SENSE_1") (pinfunction "1") (pintype "passive") (tstamp a37ab3a7-4597-44dd-9562-86b8f58c4f7a))
     (pad "2" smd custom (at 1 0) (size 0.4 0.4) (layers "F.Cu")
-      (net 19 "STROBE_3") (pinfunction "2") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 19 "STROBE_3") (pinfunction "2") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -11025,7 +11025,7 @@
     (fp_arc (start 9.3 6.1) (mid 8.42132 8.22132) (end 6.3 9.1)
       (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 918e3340-a85f-4e72-8c71-d7503beff40a))
     (pad "1" smd custom (at -1 0) (size 0.4 0.4) (layers "F.Cu")
-      (net 28 "SENSE_0") (pinfunction "1") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 28 "SENSE_0") (pinfunction "1") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -11105,7 +11105,7 @@
     (pad "1" thru_hole circle (at -1 0) (size 0.8 0.8) (drill 0.4) (layers "*.Cu")
       (net 28 "SENSE_0") (pinfunction "1") (pintype "passive") (tstamp 4945f6fa-c1d7-4581-90da-51c1e2a87503))
     (pad "2" smd custom (at 1 0 180) (size 0.4 0.4) (layers "F.Cu")
-      (net 19 "STROBE_3") (pinfunction "2") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 19 "STROBE_3") (pinfunction "2") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -11470,7 +11470,7 @@
     (fp_arc (start 9.3 6.1) (mid 8.42132 8.22132) (end 6.3 9.1)
       (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 3f0e70c0-d25d-4048-90c3-4a2bb285dd08))
     (pad "1" smd custom (at -1 0) (size 0.4 0.4) (layers "F.Cu")
-      (net 28 "SENSE_0") (pinfunction "1") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 28 "SENSE_0") (pinfunction "1") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -11550,7 +11550,7 @@
     (pad "1" thru_hole circle (at -1 0) (size 0.8 0.8) (drill 0.4) (layers "*.Cu")
       (net 28 "SENSE_0") (pinfunction "1") (pintype "passive") (tstamp 6ac97a4d-5ad7-4c30-832e-e5362c3912c1))
     (pad "2" smd custom (at 1 0 180) (size 0.4 0.4) (layers "F.Cu")
-      (net 20 "STROBE_2") (pinfunction "2") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 20 "STROBE_2") (pinfunction "2") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -11915,7 +11915,7 @@
     (fp_arc (start 9.3 6.1) (mid 8.42132 8.22132) (end 6.3 9.1)
       (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp ba362218-6a23-4236-a4a1-0c3eb72df144))
     (pad "1" smd custom (at -1 0 90) (size 0.4 0.4) (layers "F.Cu")
-      (net 24 "SENSE_4") (pinfunction "1") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 24 "SENSE_4") (pinfunction "1") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -11995,7 +11995,7 @@
     (pad "1" thru_hole circle (at -1 0 90) (size 0.8 0.8) (drill 0.4) (layers "*.Cu")
       (net 24 "SENSE_4") (pinfunction "1") (pintype "passive") (tstamp 0c589872-4d46-472f-94f0-5398777894e5))
     (pad "2" smd custom (at 1 0 270) (size 0.4 0.4) (layers "F.Cu")
-      (net 19 "STROBE_3") (pinfunction "2") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 19 "STROBE_3") (pinfunction "2") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -12440,7 +12440,7 @@
     (fp_circle (center 16.4 7.2) (end 17.85 7.2)
       (stroke (width 0.1) (type solid)) (fill none) (layer "Dwgs.User") (tstamp 610b073b-153e-4fb6-a630-7c0a3f2a76bf))
     (pad "1" smd custom (at -1 0 90) (size 0.4 0.4) (layers "F.Cu")
-      (net 19 "STROBE_3") (pinfunction "1") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 19 "STROBE_3") (pinfunction "1") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -12520,7 +12520,7 @@
     (pad "1" thru_hole circle (at -1 0 90) (size 0.8 0.8) (drill 0.4) (layers "*.Cu")
       (net 19 "STROBE_3") (pinfunction "1") (pintype "passive") (tstamp ed346d3c-926b-43ea-8133-bc26bf9e5862))
     (pad "2" smd custom (at 1 0 270) (size 0.4 0.4) (layers "F.Cu")
-      (net 25 "SENSE_3") (pinfunction "2") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 25 "SENSE_3") (pinfunction "2") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -12885,7 +12885,7 @@
     (fp_arc (start 9.3 6.1) (mid 8.42132 8.22132) (end 6.3 9.1)
       (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 6ced37bb-0430-40fc-8300-4a4ff5c3a0a5))
     (pad "1" smd custom (at -1 0 90) (size 0.4 0.4) (layers "F.Cu")
-      (net 23 "SENSE_5") (pinfunction "1") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 23 "SENSE_5") (pinfunction "1") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -12965,7 +12965,7 @@
     (pad "1" thru_hole circle (at -1 0 90) (size 0.8 0.8) (drill 0.4) (layers "*.Cu")
       (net 23 "SENSE_5") (pinfunction "1") (pintype "passive") (tstamp 547e66f9-a0fc-4d3e-a246-efee0fdf4cf3))
     (pad "2" smd custom (at 1 0 270) (size 0.4 0.4) (layers "F.Cu")
-      (net 21 "STROBE_1") (pinfunction "2") (pintype "passive") (zone_connect 0) (thermal_bridge_angle 45)
+      (net 21 "STROBE_1") (pinfunction "2") (pintype "passive") (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
