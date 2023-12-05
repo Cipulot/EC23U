@@ -162,6 +162,18 @@
                                 0,
                                 10
                             ]
+                        },
+                        {
+                            "label": "Clear Bottoming Calibration Data",
+                            "type": "button",
+                            "options": [
+                                0
+                            ],
+                            "content": [
+                                "id_clear_bottoming_calibration_data",
+                                0,
+                                11
+                            ]
                         }
                     ]
                 }
