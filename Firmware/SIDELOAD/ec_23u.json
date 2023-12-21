@@ -86,27 +86,27 @@
                                     ]
                                 },
                                 {
-                                    "label": "Actuation Sensitivity (1-255)",
+                                    "label": "Actuation Offset (1-255)",
                                     "type": "range",
                                     "options": [
                                         1,
                                         255
                                     ],
                                     "content": [
-                                        "id_mode_1_actuation_sensitivity",
+                                        "id_mode_1_actuation_offset",
                                         0,
                                         6
                                     ]
                                 },
                                 {
-                                    "label": "Release Sensitivity (1-255)",
+                                    "label": "Release Offset (1-255)",
                                     "type": "range",
                                     "options": [
                                         1,
                                         255
                                     ],
                                     "content": [
-                                        "id_mode_1_release_sensitivity",
+                                        "id_mode_1_release_offset",
                                         0,
                                         7
                                     ]
